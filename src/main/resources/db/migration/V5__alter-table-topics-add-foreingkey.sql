@@ -1,0 +1,2 @@
+alter table topics ADD CONSTRAINT fk_topics_author_id foreign key (author_id) references users(id);
+alter table topics ADD CONSTRAINT fk_topics_course_id foreign key (course_id) references courses(id);
